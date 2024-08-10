@@ -1,0 +1,164 @@
+/* General Body and Container Styles */
+body {
+  background: #ddd;
+  /* background-image: url("pexels-vishnurnair-1105666.jpg"); */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 90vh; /* Ensure the container takes up the full height of the viewport */
+}
+
+/* Left Column Styles */
+.left-column {
+  flex: 1;
+  margin-right: 10px;
+  /* background: white; */
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-column h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  margin-left: 5px;
+}
+
+.current-mood-container img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid #ddd;
+  margin-bottom: 10px;
+}
+
+#current-emotion-name {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Middle Column Styles */
+.middle-column {
+  flex: 1;
+  margin: 0 10px;
+  /* background: #ffffff; */
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.middle-column h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#song-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#song-name, #artist-name {
+  font-size: 18px;
+  color: #555;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Right Column Styles */
+.right-column {
+  flex: 1;
+  width: 400px;
+  margin-left: 10px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* History Container Styles */
+.history-container {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 70vh; /* Set a maximum height for the history container */
+  padding-right: 10px; /* Add some padding to prevent scrollbar overlap */
+}
+
+.history-item {
+  display: flex;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #677D6A;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-frame {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.history-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.history-details p {
+  margin: 5px 0;
+  color: whitesmoke;
+}
+
+.history-song-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+/* Custom Scrollbar Styling */
+.history-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.history-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 8px;
+}
+
+.history-container::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
