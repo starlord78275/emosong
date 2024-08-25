@@ -32,8 +32,6 @@ client_id = 'your_spotify_client_id'
 client_secret = 'your_spotify_client_secret'
 
 emotion-driven-music-player/
-
-
 ├── static/
 │  
 └── frame_latest.jpg   # Placeholder for the latest captured frame
