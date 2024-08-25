@@ -15,7 +15,7 @@ This project is a web-based music player that detects your emotions through a we
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/emotion-driven-music-player.git
+   https://github.com/starlord78275/mpfer-music-player-using-facial-emotion-recognition-.git
    cd emotion-driven-music-player
 
 **pip install -r requirements.txt**
@@ -32,12 +32,20 @@ client_id = 'your_spotify_client_id'
 client_secret = 'your_spotify_client_secret'
 
 emotion-driven-music-player/
+
+
 ├── static/
+
 │   └── frame_latest.jpg   # Placeholder for the latest captured frame
+
 ├── templates/
+
 │   ├── index.html         # Main application interface
+
 ├── styles.css             # Custom CSS for the project
+
 ├── main.py                # Main Python script for running the server
+
 └── README.md              # Project documentation (this file)
 
 
