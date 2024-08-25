@@ -33,13 +33,21 @@ client_secret = 'your_spotify_client_secret'
 
 emotion-driven-music-player/
 ├── static/
+
 │  
+
 └── frame_latest.jpg   # Placeholder for the latest captured frame
+
 ├── templates/
+
 │
+
 ├── index.html         # Main application interface
+
 ├── styles.css             # Custom CSS for the project
+
 ├── main.py                # Main Python script for running the server
+
 └── README.md              # Project documentation (this file)
 
 
